@@ -20,7 +20,39 @@
     <main>
       <section>
         <h2>Eingabe:</h2>
-        <p>Inhalt des Abschnitts hier</p>
+        <form>
+            <label for="type">Typ:</label>
+            <select id="type" name="type">
+              <option value="Gedicht">Gedicht</option>
+              <option value="Spruch">Spruch</option>
+              <option value="Witz">Witz</option>
+            </select>
+          
+            <label for="style">Stil:</label>
+            <select id="style" name="style">
+              <option value="Lustig">Lustig</option>
+              <option value="Gruselig">Gruselig</option>
+              <option value="Böse">Böse</option>
+            </select>
+          
+            <label for="who">Wen?:</label>
+            <select id="who" name="who">
+              <option value="Mutti">Mutti</option>
+              <option value="Vater">Vater</option>
+              <option value="Opa">Opa</option>
+              <option value="Oma">Oma</option>
+              <option value="Kind">Kind</option>
+              <option value="Ehefrau">Ehefrau</option>
+            </select>
+          
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="age">Alter:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <input type="submit" value="Absenden">
+          </form>
       </section>
     </main>
     <footer>
