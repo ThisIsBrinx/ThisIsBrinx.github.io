@@ -20,7 +20,7 @@
     <main>
       <section>
         <h2>Eingabe:</h2>
-        <form>
+        <form action="create.py" method="post">
             <label for="type">Typ:</label>
             <select id="type" name="type">
               <option value="Gedicht">Gedicht</option>
@@ -53,6 +53,7 @@
             
             <input type="submit" value="Absenden">
           </form>
+          <div id="output"></div>
       </section>
     </main>
     <footer>
